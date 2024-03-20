@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from "react";
+import React, { useState } from "react";
 import Course from "./Course";
 
 
@@ -7,11 +7,7 @@ const Allcourses=()=>{
         const [courses,setcourses]=useState([
             {title:"java Courses ",description:"this is courses"},
             {title:"react courses ",description:"this is react courses"}
-        ]);
-
-        useEffect(()=>{
-            alert("testing");
-        },[]);
+        ])
 return(
     <div>
         <h1>All Courses</h1>
